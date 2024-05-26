@@ -18,8 +18,8 @@ API_HASH = environ.get('API_HASH', 'ae5a5f660ffdf3e08997d493c32932f5')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6068679720:AAFn-VPUqZZqf9BCcFY0N4-AGQ5_VL4WyG8")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'gyanilinks.com'))
-STREAM_API = (environ.get('STREAM_API', '76f21de69c69cbd8df3b91f0c00c4d90e0a664a1'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.com'))
+STREAM_API = (environ.get('STREAM_API', 'c85267c0cbf5768e243e55ba9617033baabe5400'))
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002122060084'))
@@ -32,7 +32,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/13a6a352fb9dddd13f065.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/03f2b65b4091df335775e.jpg")
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b7beed75d90a3b1511915.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/howtodownload189/4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
@@ -61,10 +61,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables 
 VERIFY = bool(environ.get('VERIFY', False))
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/AR_linkz/2')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/AR_linkz/10')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gyanilinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '76f21de69c69cbd8df3b91f0c00c4d90e0a664a1')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c85267c0cbf5768e243e55ba9617033baabe5400')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 #others 
